@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>utsfrom1</title>
+    <link rel="stylesheet" href="mycss.css">
+</head>
+<style>
+    body {
+    background-image: url(gambar/mosque.jpg);
+}
+nav {
+    text-align: right;
+}
+fieldset{
+    background-image: url(gambar/mosque1.jpeg);
+    margin: 10px 400px;
+}
+#submit{
+    box-shadow: 4px 3px 2px;
+    background-color: blue;
+    color: white;
+}
+#update {
+    box-shadow: 4px 3px 2px;
+    background-color: green;
+    color: white;
+}
+#reset {
+    box-shadow: 4px 3px 2px;
+    background-color: red;
+    color: white;
+}
+</style>
+<body>
+    <fieldset>
+    <nav>
+        <a href="">Home ></a>
+        <a href="">Admin ></a>
+        <a >Masjid</a>
+    </nav>
+    <main>
+        <form action="" method="POST">
+            <table>
+                <tr >
+                    <td>Nama Masjid</td>
+                    <td>:</td>
+                    <td><input type="text" name="namamasjid" ></td>
+                </tr>
+                <tr>
+                    <td>Kecamatan</td>
+                    <td>:</td>
+                    <td><select>
+                        <option value="beji">Beji</option>
+                        <option value="kelapadua">Kelapa Dua</option>
+                    </select>
+                    Kelurahan :
+                    <select>
+                        <option value="kukusan">Kukusan</option>
+                        <option value="pondokcina">Pondok Cina</option>
+                    </select>
+                </td>
+                </tr>
+                <tr>
+                    <td>Deskripsi Fasilitas</td>
+                    <td>:</td>
+                    <td><textarea name="desc" cols="21px" rows="5px"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Nama Pengurus DKM</td>
+                    <td>:</td>
+                    <td><input type="text" name="namapengurusdkm"></td>
+                </tr>
+                <tr>
+                    <td>No HP/Telpon</td>
+                    <td>:</td>
+                    <td><input type="text" name="nohp/telpon"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>:</td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td>Alamat Web</td>
+                    <td>:</td>
+                    <td><input type="text" name="web" placeholder="http://"></td>
+                </tr>
+                <tr>
+                    <td>Alamat Lengkap</td>
+                    <td>:</td>
+                    <td><textarea name="alamatlengkap" cols="21px" rows="5px"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Latitude, Longtitude</td>
+                    <td>:</td>
+                    <td><input type="text" name="Latitude,Longtitude"></td>
+                </tr>
+                <tr>
+                    <td><input id="submit" type="submit" name="proses" value="Submit">
+                    <input id="update" type="submit" name="update" value="Update">
+                    <input id="reset" type="reset" name="unproses" value="Reset"></td>
+                </tr>
+            </table>
+
+
+        </form>
+
+    </main>
+    </fieldset>
+</body>
+</html>
